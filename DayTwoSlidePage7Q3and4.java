@@ -24,24 +24,36 @@ public class DayTwoSlidePage7Q3and4 {
 		System.out.println();
 		System.out.println();
 		
+//		QUESTION 4 VARIABLES STATED
+		int spades = 0;
+		int hearts = 1;
+		int clubs = 2;
+		int diamonds = 3;
 		
-//		QUESTION 4 IS SATISFIED IN EACH IF STATEMENT
+
 		if (rdm == 0) {
 			suit = "Spades, and did you know the Ace of Spades is the highest value!";
-				int spades = 0;
+
 		} else if (rdm == 1) {
 			suit = "Hearts, I love you.";
-				int hearts = 1;
-;		} else if (rdm == 2) {
-			suit = "Clubs, and unless its 4 clovers it's not lucky";
-				int clubs = 2;
+
+		} else if (rdm == 2) {
+			suit = "Clubs, and unless its 4 clovers it's not lucky.";
+
 		} else {
-			suit = "Diamonds, and diamonds are forever";
-				int diamonds = 3;
+			suit = "Diamonds, and diamonds are forever.";
+
 		}
 				
 		System.out.println("The random number was " + rdm);
 		System.out.println(rdm + " represents " + suit);
+		System.out.println();
+		
+//		QUESTION 4 IS SATISFIED HERE BY CALLING THE VARIABLES
+		System.out.println("Spades = " + spades);
+		System.out.println("Hearts = " + hearts);
+		System.out.println("Clubs = " + clubs);
+		System.out.println("Diamonds = " + diamonds);
 		
 //		CLOSES SCANNNER
 		reader.close();
