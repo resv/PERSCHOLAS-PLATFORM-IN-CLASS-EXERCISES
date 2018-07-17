@@ -15,8 +15,5 @@ public class DayTwoSlidePage16 {
 			i = i - 10;
 			
 		}
-		
-		
 	}
-
 }
