@@ -89,6 +89,3 @@ public class DayTwoSlidePage7Q5 {
 	}
 
 }
-
-
-//. Read in an int variable month equal to 1, …, 12, set a string variable to the name of the month January, February, etc
