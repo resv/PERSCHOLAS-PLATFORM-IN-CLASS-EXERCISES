@@ -13,22 +13,18 @@ public class FibonacciSeries {
 		
 	    int t1 = 0;
 		int t2 = 1;
-		int r1;
-		int r2 = 0;
+		int r1 = 2;
 		
 		
 // 		FIBONACCI SOURCE CODE
 		while (i < 10) {
 			
 		r1 = t1 + t2;
-		r2 = r2 + r1;
-		t2 = t1;
-		t1 = r1;
-						
-			System.out.println(r1);
+		System.out.println(t1);
+		t1 = t2;
+		t2 = r1;
+					
 			i++;
-			
-			
 		}
 	}
 }
